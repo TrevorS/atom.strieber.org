@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: auto;
+  width: 100%;
+}
+
+.header {
+  background-color: #E2E2E2;
+  padding-right: 55px;
+  padding-left: 35px;
+  height: 95px;
+}
+
+.brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  padding-top: 30px;
+  float: left;
+  width: 40%;
+}
+
+.brand-divider {
+  border-left: thin solid;
+  border-color: #999999;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+
+.tag-line {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #999999;
+}
+
+nav {
+  list-style-type: none;
+  padding-top: 20px;
+  float: right;
+}
+
+nav .links {
+  color: #cacaca;
+}
+
+nav .links li {
+  display: inline;
+}
+
+nav .links li a,
+nav .links li a:visited {
+  text-decoration: none;
+  padding-right: 2px;
+  padding-left: 2px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+
+nav .links li:hover {
+  text-decoration: underline;
+}
+
+.builds {
+  list-style-type: none;
+}
+
+.builds li {
+  padding-top: 10px;
+}
+
+.builds li a,
+.builds li a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+.builds li a:hover {
+  text-decoration: underline;
+}
+
+.builds li p {
+  padding-left: 15px;
+}
