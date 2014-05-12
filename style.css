@@ -39,16 +39,19 @@ body {
 
 nav {
   list-style-type: none;
-  padding-top: 20px;
+  padding-top: 38px;
+  color: #cacaca;
   float: right;
 }
 
-nav .links {
-  color: #cacaca;
+nav .links li {
+  border-right: thin solid;
+  padding-left: 5px;
+  display: inline;
 }
 
-nav .links li {
-  display: inline;
+nav .links li:last-child {
+  border-right: none;
 }
 
 nav .links li a,
@@ -76,6 +79,8 @@ nav .links li:hover {
 .builds li a,
 .builds li a:visited {
   text-decoration: none;
+  padding-bottom: 15px;
+  font-weight: 700;
   color: #000000;
 }
 
@@ -83,6 +88,6 @@ nav .links li:hover {
   text-decoration: underline;
 }
 
-.builds li p {
+.builds .fixes {
   padding-left: 15px;
 }
